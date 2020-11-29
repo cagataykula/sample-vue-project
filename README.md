@@ -1,4 +1,4 @@
-# scorp-sample-project
+# sample-vue-project
 
 ## Project setup
 ```
