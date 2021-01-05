@@ -29,4 +29,18 @@ export default {
 </script>
 
 <style lang="scss">
+html, body {
+  height: 100%;
+  #app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
 </style>

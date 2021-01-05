@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-5 col-md-12 row m-0 bg-secondary align-items-center justify-content-between text-white p-5">
+    <footer class="mt-5 row m-0 bg-secondary align-items-center justify-content-between text-white p-5">
         <p class="col-sm-12 col-md-6">
             {{$i18n.t('usedDependencies')}}:
             <span v-for="dependency in Object.keys(packages.dependencies)" :key="dependency">
